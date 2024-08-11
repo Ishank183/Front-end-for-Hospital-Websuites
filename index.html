@@ -52,6 +52,7 @@ img.a{
   visibility: visible;
   background-color: rgba(12, 12, 210, 0.5);
   color: white;
+  overflow: hidden;
 }
 
 .cardiac-div:hover > .heading3 {
@@ -73,28 +74,30 @@ img.a{
 }
 
 .heading{
-  text-shadow: 3px 3px 3px blueviolet;
-  font-size: 53px;
+  text-shadow: 2px 2px blueviolet;
+  font-size: 48px;
+  
 }
 
 </style>
 </head>  
 
 <body class="">
-    
+
+
   <!-- navbar goes here  -->
   <nav class="fixed top-0 w-full mb-16 h-28 z-50 shadow-3xl shadow-slate-200 flex justify-between px-4 md:px-4 items-center bg-slate-50"> 
     <div>
-      <img class="h-24 w-28 ml-8 mr-10" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgikBlXaAoIzbBfWUYSTqf8ioefWKm6CUrQ&s" alt="">
+      <img class="h-24 w-28 ml-8 mr-40" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrgikBlXaAoIzbBfWUYSTqf8ioefWKm6CUrQ&s" alt="">
       </div>
         <ul class="md:flex hidden font-semibold content-center mr-5 ">
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Home</li>
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Speciality</li>
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">About Us</li>
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Services</li>
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Doctors</li>
-      <li class="p-3 font-semibold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Contact Us</li>
-      <li class="p-2 rounded-lg bg-blue-600 border-2 border-blue-600 text-white mx-9 cursor-pointer uppercase tracking-wide hover:text-white hover:font-bold hover:scale-125 hover:duration-200">Book an Appointment</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Home</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Speciality</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">About Us</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Services</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Doctors</li>
+      <li class="p-3 font-bold rounded-2xl mr-5 cursor-pointer uppercase hover:bg-indigo-300 hover:p-3 tracking-wide hover:scale-110 hover:duration-100 hover:text-white">Contact Us</li>
+      <div class="p-3 rounded-lg bg-blue-600 border border-blue-600 text-white mx-9 font-bold cursor-pointer uppercase tracking-wide hover:text-white hover:font- hover:scale-125 hover:duration-200">Book an Appointment</div>
     </ul>
     <div class="md:hidden">
       <a class="text-4xl" href="#">&#8801;</a>
@@ -235,11 +238,11 @@ img.a{
 
         <div class="rounded-lg cardiac-box relative shadow-md shadow-gray-500 mb-10 hover:shadow-lg hover:shadow-gray-700 hover:scale-110 hover:duration-500">
           <img class="rounded-md h-96 w-56" src="data:image/webp;base64,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" alt="">
-          <div class="rounded-md cardiac-div invisible bg-slate-100 h-full absolute p-4 left-0 top-0 text-purple-900 ">
+          <div class="overflow-hidden rounded-md cardiac-div invisible bg-slate-100 h-full absolute p-4 left-0 top-0 text-purple-900 ">
             <h3 class="visible font-poppin ml- heading3 font-bold text-2xl mt-28">Cardiac Sciences</h3>
-            <p class="text-sm mt-40 para ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt obcaecati eius deleniti dolorem impedit unde quae facilis doloremque hic.</p>
-            <div class="my-7 mx-auto w-28 h-12 para1 border-2 bg-blue-900 rounded-lg text-center align-middle hover:cursor-pointer hover:font-bold hover:scale-125 p-2">
-              <p>Learn More</p>
+            <p class="overflow-hidden text-sm mt-40 para ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima nesciunt obcaecati eius deleniti dolorem impedit unde quae facilis doloremque hic.</p>
+            <div class="overflow-hidden my-7 mx-auto w-28 h-12 para1 border-2 bg-blue-900 rounded-lg text-center align-middle hover:cursor-pointer hover:font-bold hover:scale-125 p-2">
+              <p class="overflow-hidden">Learn More</p>
             </div>
           </div>
         </div>
@@ -489,7 +492,6 @@ img.a{
   <!-- <div>
     <p class="heading text-9xl font-bold text-center">Ishank</p>
   </div> -->
-
-     <p>ishank jain</p>
+  
 </body>
 </html>
