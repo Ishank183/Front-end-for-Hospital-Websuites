@@ -1,2 +1,2 @@
-# Front-end-for-Hospital-Websuites
-This is a Front-end page for any Hospital Related Website using HTML, CSS, Tailwind.
+# Web-page-for-Hospital-Websites
+This is a Webpage for any Hospital Related Website using HTML, CSS, Tailwind.
